@@ -1,0 +1,176 @@
+/*
+*	ACF styles by Matter Solutions
+*	These are designed to make rows easier to distinguish
+*/
+
+.acf-field-mttr-flex-content-bands > .acf-input > .acf-repeater > table > tbody > tr > td {
+
+	border-top: 10px solid #ed217c !important;
+	padding-bottom: 2em !important;
+
+}
+
+.acf-field-mttr-flex-content-bands .acf-fc-layout-handle {
+
+	background-color: #21203a !important;
+	color: #fff !important;
+	font-weight: 900 !important;
+	text-transform: uppercase;
+
+}
+
+
+.acf-field-mttr-flex-content-bands .acf-fc-layout-handle {
+
+	border-color: #21203a !important;
+
+}
+
+
+
+.layout[data-layout="standard_content"] tbody,
+.layout[data-layout="standard_content"] tr,
+.layout[data-layout="standard_content"] td {
+
+	display: inline-block !important;
+	vertical-align: top;
+	width: 100%;
+
+}
+
+
+
+.layout[data-layout="standard_content"] td {
+
+	box-sizing: border-box;
+
+}
+
+
+
+.layout[data-layout="standard_content"] .hidden-by-conditional-logic {
+
+	display: none !important;
+
+}
+
+
+.acf-field-mttr-flex-standard-content-column-options label {
+
+	position: relative;
+
+}
+
+
+.acf-field-mttr-flex-standard-content-column-options label img {
+
+	opacity: .2;
+
+}
+
+.acf-field-mttr-flex-standard-content-column-options label input[type=radio] {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+
+}
+
+
+.acf-field-mttr-flex-standard-content-column-options label input[type=radio]:checked + img {
+
+	opacity: 1;
+
+}
+
+
+.mttr-lyt-active {
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+
+.layout.-collapsed .mttr-lyt-active {
+
+	display: none;
+
+}
+
+
+.mttr-lyt-active .acf-field {
+
+	display: inline-block;
+	float: none !important;
+	padding-left: 12px;
+	padding-right: 12px;
+	vertical-align: top;
+	width: 100%;
+
+}
+
+
+@media screen and ( min-width: 990px ) {
+
+	.mttr-lyt-active--two .acf-field-mttr-flex-standard-content-wysiwyg-one,
+	.mttr-lyt-active--two .acf-field-mttr-flex-standard-content-wysiwyg-two,
+	.acf-field-mttr-flex-standard-content-reverse,
+	.acf-field-mttr-flex-standard-content-width {
+
+		width: 50% !important;
+		margin-right: -4px;
+
+	}
+
+
+	.mttr-lyt-active--three .acf-field-mttr-flex-standard-content-wysiwyg-one,
+	.mttr-lyt-active--three .acf-field-mttr-flex-standard-content-wysiwyg-two,
+	.mttr-lyt-active--three .acf-field-mttr-flex-standard-content-wysiwyg-three {
+
+		width: 33.333% !important;
+		margin-right: -4px;
+
+	}
+
+
+	.mttr-lyt-active--content_sidebar .acf-field-mttr-flex-standard-content-wysiwyg-one,
+	.mttr-lyt-active--sidebar_content .acf-field-mttr-flex-standard-content-wysiwyg-two {
+
+		width: 66.666% !important;
+		margin-right: -4px;
+
+	}
+
+	.mttr-lyt-active--content_sidebar .acf-field-mttr-flex-standard-content-wysiwyg-two,
+	.mttr-lyt-active--sidebar_content .acf-field-mttr-flex-standard-content-wysiwyg-one {
+
+		width: 33.333% !important;
+		margin-right: -4px;
+
+	}
+
+}
+
+
+
+
+/*
+*	Section heading
+*/
+
+.acf-field-mttr-flex-section-heading-content .acf-editor-wrap iframe {
+
+	min-height: 0;
+	max-height: 100px;
+
+}
+
+
+.acf-field-mttr-flex-layouts-media-list-item-content .acf-editor-wrap iframe {
+
+	min-height: 0;
+	max-height: 200px;
+
+}
