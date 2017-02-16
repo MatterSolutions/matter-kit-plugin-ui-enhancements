@@ -77,20 +77,18 @@ function mttr_add_admin_stylesheets() {
 
 	if ( is_admin() ) {
 
-		$plugin_name = plugin_basename( __FILE__ );
-
 		// ACF stylesheet
-		$acf_stylesheet = '/wp-content/plugins/' . plugin_dir_path( $plugin_name ) . 'css/matter-acf-styles.css';
+		$acf_stylesheet = plugin_dir_url( __FILE__ ) . 'css/matter-acf-styles.css';
 		wp_enqueue_style( 'mttr_acf_styles', $acf_stylesheet, false, '1.0.0' );
 
 
 		// Column stylesheet
-		$acf_stylesheet = '/wp-content/plugins/' . plugin_dir_path( $plugin_name ) . 'css/matter-admin-styles.css';
+		$acf_stylesheet = plugin_dir_url( __FILE__ ) . 'css/matter-admin-styles.css';
 		wp_enqueue_style( 'mttr_admin_styles', $acf_stylesheet, false, '1.0.0' );
 
 
 		// Scripts
-		$mttr_acf_script = '/wp-content/plugins/' . plugin_dir_path( $plugin_name ) . 'js/enhanced-scripts.js';
+		$mttr_acf_script = plugin_dir_url( __FILE__ ) . 'js/enhanced-scripts.js';
 		wp_enqueue_script( 'mttr_admin_script', $mttr_acf_script );
 
 	}
