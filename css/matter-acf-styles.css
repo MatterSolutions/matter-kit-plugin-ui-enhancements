@@ -93,6 +93,14 @@
 }
 
 
+
+.mttr-lyt-active--one .acf-field-mttr-flex-standard-content-wysiwyg-two,
+.mttr-lyt-active--one .acf-field-mttr-flex-standard-content-wysiwyg-three,
+.mttr-lyt-active--two .acf-field-mttr-flex-standard-content-wysiwyg-three,
+.mttr-lyt-active--content_sidebar .acf-field-mttr-flex-standard-content-wysiwyg-three,
+.mttr-lyt-active--sidebar_content .acf-field-mttr-flex-standard-content-wysiwyg-three { display: none !important; }
+
+
 .layout.-collapsed .mttr-lyt-active {
 
 	display: none;
